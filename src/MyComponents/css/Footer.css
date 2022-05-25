@@ -1,0 +1,42 @@
+#Contact
+{
+    position: absolute;
+    top: 1600px;
+    width: 100%;
+}
+.offset:before {
+    height: 3.8rem;
+    margin-top: -3.8rem;
+    content: "";
+    display: block;
+}
+footer {
+    background-color: #40474e;
+    color: white;
+    padding: 2rem 0 3rem;
+    margin-top: 1rem;
+}
+
+footer img {
+    height: 5rem;
+    margin: 1.5rem 0;
+}
+
+footer a {
+    color: white;
+    transition: .2s ease;
+}
+
+footer a:hover {
+    color: #1ebba3;
+}
+
+hr.socket {
+    border-top: .2rem solid #666b71;
+    width: 100%;
+}
+
+
+#sep a{
+    margin-right: 25px;
+}

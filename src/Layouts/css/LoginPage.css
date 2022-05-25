@@ -1,0 +1,27 @@
+#L {
+    position: relative;
+    top: 60px;
+    background-color: #F7F7F7;
+}
+
+#F{
+    background-color: #F7F7F7;
+    height: 800px;
+}
+
+#Fw {
+    position: absolute;
+    bottom: 1px;
+}
+
+.Si{
+    text-decoration: none;
+    color: #1ebba3;
+}
+.row{
+    font-size: 1.4rem;
+}
+
+.col-md-5 h6{
+    font-size: 1.4rem;
+}

@@ -1,0 +1,117 @@
+#Services{
+    position: absolute;
+    top: 580px;
+}
+.section_padding {
+    padding: 100px 0;
+}
+
+.offset:before {
+    height: 3.8rem;
+    margin-top: -3.8rem;
+    content: "";
+    display: block;
+}
+
+h3.heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 1.9rem;
+}
+
+.t{
+    text-decoration: none;
+}
+
+.section_title {
+    position: relative;
+    margin-bottom: 70px;
+    width: 100%;
+}
+
+.heading-underline {
+    width: 3rem;
+    height: .1rem;
+    background-color: #1ebba3;
+    margin: 0 auto 2rem;
+}
+
+.section_title p {
+    background-color: #1957f3;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 0 12px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+
+.section_title h3 {
+    position: relative;
+    font-size: 36px;
+    text-transform: capitalize;
+    line-height: 1.14;
+    letter-spacing: 1.4px;
+    padding-bottom: 13px;
+}
+
+.py-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.Service_box {
+    transition: all 0.2s ease;
+    border: 3px solid rgba(91, 52, 255, 0.2);
+}
+
+.Service_box:hover {
+    border: 3px solid #1ebba3;
+    box-shadow: -4px 3px 10px 2px rgba(2, 1, 3, 0.06);
+}
+
+.box {
+    position: relative;
+    padding: 50px;
+}
+
+.Service_box .icon i {
+    color: #1957f3;
+    font-size: 38px;
+}
+
+.text {
+    color: #000;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.box_title {
+    position: relative;
+    margin-top: 10px;
+    padding-bottom: 6px;
+    font-size: 16px;
+    overflow: hidden;
+    font-weight: bolder;
+}
+
+.box_title::before {
+    content: '';
+    display: inline-block;
+    width: 15%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 14;
+    background-color: #1ebba3;
+}
+
+.row{
+    font-size: 1.4rem;
+}

@@ -1,0 +1,95 @@
+:root{
+    --green:#1ebba3;
+    --black:#444;
+    --light-color:#777;
+    --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
+    --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
+    --borderHover:.2rem solid var(--green);
+    --border: .2rem solid var(--light-color);
+}
+
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    text-shadow: var(--text-shadow);
+    text-transform: uppercase;
+    color:var(--black);
+    font-size: 3rem;
+    letter-spacing: .4rem;
+}
+
+.heading span{
+    text-transform: uppercase;
+    color:var(--green);
+}
+
+#doctors {
+    padding:2rem 9%;
+    background: #f5f5f5;
+}
+.doctors .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:2rem;
+}
+
+.doctors .box-container .box{
+    text-align: center;
+    background:#fff;
+    border-radius: .5rem;
+    border:var(--border);
+    box-shadow: var(--box-shadow);
+    padding:2rem;
+}
+
+
+.doctors .box-container .box:hover{
+    border: var(--borderHover);
+}
+
+
+
+.doctors .box-container .box img{
+    height: 20rem;
+    border:var(--borderHover);
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+.doctors .box-container .box:hover img{
+    transform: scale(1.1);
+    transition: .3s ease-out;
+}
+
+.doctors .box-container .box h3{
+    color:var(--black);
+    font-size: 2.5rem;
+}
+
+.doctors .box-container .box span{
+    color:var(--green);
+    font-size: 1.5rem;
+}
+
+.doctors .box-container .box .share{
+    padding-top: 2rem;
+}
+
+.doctors .box-container .box .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 4.5rem;
+    font-size: 2rem;
+    color:var(--green);
+    border-radius: .5rem;
+    border:var(--borderHover);
+    margin:.3rem;
+}
+
+.doctors .box-container .box .share a:hover{
+    background:var(--green);
+    color:#fff;
+    box-shadow: var(--box-shadow);
+}

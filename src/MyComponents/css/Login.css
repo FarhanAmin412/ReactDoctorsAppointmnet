@@ -1,0 +1,14 @@
+label {
+    font-size: 1.4rem;
+  }
+  
+  input.form-control, input.form-control:focus {
+    background: #F0F0FF;
+    font-size: 1.4rem;
+  }
+  
+  .error {
+    position: absolute;
+    color: red;
+    font-size: 1rem;
+  }
